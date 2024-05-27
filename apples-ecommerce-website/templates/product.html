@@ -1,0 +1,37 @@
+<!-- File: apples-ecommerce-website/templates/product.html (HTML) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Product</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+    <div class="product-container">
+        <h1>Apple Name</h1>
+        <p>Origin: Apple Origin</p>
+        <p>Taste: Apple Taste</p>
+        <p>Nutritional Information: Apple Nutrition</p>
+        <button id="add-to-cart-btn">Add to Cart</button>
+    </div>
+
+    <div class="product-reviews">
+        <h2>Customer Reviews</h2>
+        <div class="review">
+            <p>Rating: 5 stars</p>
+            <p>Great apple, highly recommended!</p>
+        </div>
+        <div class="review">
+            <p>Rating: 4 stars</p>
+            <p>Good apple, could be sweeter.</p>
+        </div>
+    </div>
+
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+
+</html>
