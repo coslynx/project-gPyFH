@@ -1,0 +1,30 @@
+cart.html (HTML):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple E-Commerce - Cart</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1>Your Cart</h1>
+    </header>
+    <main>
+        <div id="cart-items">
+            <!-- Display the items in the cart here -->
+        </div>
+        <div id="cart-total">
+            <!-- Display the total price of items in the cart here -->
+        </div>
+        <button id="checkout-btn">Proceed to Checkout</button>
+    </main>
+    <footer>
+        <p>&copy; 2023 Apple E-Commerce. All rights reserved.</p>
+    </footer>
+    <script src="{% static 'js/script.js' %}"></script>
+</body>
+</html>
